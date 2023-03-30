@@ -1,5 +1,9 @@
 # Proyecto liberado para integrarse a salesforce, sap y sunat desde csharp
-Proyecto onpremise en c# (windows services). **Liberado por renovación tecnológica**. Migramos nuestras soluciones a cloud native.
+Proyecto onpremise en c# (windows services). **Liberado por renovación tecnológica**. 
+```diff
++ Migramos nuestras soluciones a cloud native
+```
+.
 
 
 ## SAP
