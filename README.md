@@ -1,4 +1,4 @@
-# Proyecto liberado para integrarse a salesforce, sap y sunat desde csharp
+# Proyecto liberado para integrarse a salesforce, sap y sunat desde csharp. (VSTO 2019)
 Proyecto onpremise en c# (windows services). **Liberado por renovación tecnológica**. 
 ```diff
 + Migramos nuestras soluciones a cloud native
