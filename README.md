@@ -8,10 +8,13 @@ Proyecto onpremise en c# (windows services). **Liberado por renovación tecnoló
 
 ## SAP
 Acceso a XSJS (XS Engine service in HANA) desde C#.
+SAPAsientosTasks.cs (Update asientos contables)
 
 
 ## Sales force
 Acceso al API de SalesForce healthcare desde c#.
+SalesForceTasks.cs
 
 ## Sunat
 Procesamiento del padrón sunat desde c#.
+SUNATServiceTasks.cs
