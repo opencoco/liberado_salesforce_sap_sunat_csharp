@@ -1,0 +1,15 @@
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\Windows.Data.deps.json
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\Windows.Data.runtimeconfig.json
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\Windows.Data.runtimeconfig.dev.json
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\Windows.Data.dll
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\ref\Windows.Data.dll
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\bin\Debug\net5.0\Windows.Data.pdb
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.csproj.AssemblyReference.cache
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.AssemblyInfoInputs.cache
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.AssemblyInfo.cs
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.csproj.CoreCompileInputs.cache
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.dll
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\ref\Windows.Data.dll
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.pdb
+C:\Proyectos2019\liberado\job-windowsservices\source\Windows.Data\obj\Debug\net5.0\Windows.Data.genruntimeconfig.cache

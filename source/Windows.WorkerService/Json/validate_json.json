@@ -1,0 +1,2286 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "vcNombres": "raul",
+            "vcApellidoPaterno": "colonia",
+            "vcApellidoMaterno": "coral",
+            "siGenero": 2,
+            "dNacimiento": "2020-07-03T00:00:00",
+            "siTipoIdentificacion": 1,
+            "vcNumeroIdentificacion": "32138551",
+            "siFactorSanguineo": 1,
+            "dtCreacion": "0001-01-01T00:00:00",
+            "iIdPersona": 46,
+            "siEstado": 1,
+            "protocolos": [
+                {
+                    "iIdProtocolo": 6,
+                    "tiVigenciaMinMeses": 0,
+                    "tiVigenciaMaxMeses": 1,
+                    "vcNombre": "COVID-19 Particular",
+                    "tiTiempoAtencionDias": 1,
+                    "tiTiempoLevanteObsdias": 7,
+                    "iIdTipoExamen": 5,
+                    "dtCreacion": "2020-05-21T08:00:30.303",
+                    "pruebas": [
+                        {
+                            "iIdPrueba": 106,
+                            "iIdDependeDePrueba": null,
+                            "vcNombre": "Entrevista Epidemiológica",
+                            "tiVigenciaMinMeses": 1,
+                            "tiVigenciaMaxMeses": 1,
+                            "bConvalidable": false,
+                            "tiVigenciaConvalidacionMeses": null,
+                            "siTipoPrueba": 1,
+                            "bInfluyeenAptitud": true,
+                            "bInfluyeAltitud": false,
+                            "bSeVendeSolo": false,
+                            "iIdGrupoPrueba": 19,
+                            "bTercerizado": false,
+                            "vcTipoPrueba": null,
+                            "vcGrupoPrueba": null,
+                            "bObligatorio": true,
+                            "diagnosticos": [],
+                            "fichas": [
+                                {
+                                    "iIdFicha": 111,
+                                    "vcNombre": "Entrevista Epidemiológica",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 235
+                                        },
+                                        {
+                                            "iIdCampo": 237
+                                        },
+                                        {
+                                            "iIdCampo": 242
+                                        },
+                                        {
+                                            "iIdCampo": 238
+                                        },
+                                        {
+                                            "iIdCampo": 240
+                                        },
+                                        {
+                                            "iIdCampo": 249
+                                        },
+                                        {
+                                            "iIdCampo": 250
+                                        },
+                                        {
+                                            "iIdCampo": 251
+                                        },
+                                        {
+                                            "iIdCampo": 246
+                                        },
+                                        {
+                                            "iIdCampo": 247
+                                        },
+                                        {
+                                            "iIdCampo": 248
+                                        },
+                                        {
+                                            "iIdCampo": 252
+                                        },
+                                        {
+                                            "iIdCampo": 239
+                                        },
+                                        {
+                                            "iIdCampo": 253,
+                                            "valor": 42
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "iIdPrueba": 105,
+                            "iIdDependeDePrueba": null,
+                            "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                            "tiVigenciaMinMeses": 0,
+                            "tiVigenciaMaxMeses": 0,
+                            "bConvalidable": false,
+                            "tiVigenciaConvalidacionMeses": null,
+                            "siTipoPrueba": 3,
+                            "bInfluyeenAptitud": true,
+                            "bInfluyeAltitud": false,
+                            "bSeVendeSolo": true,
+                            "iIdGrupoPrueba": 18,
+                            "bTercerizado": false,
+                            "vcTipoPrueba": null,
+                            "vcGrupoPrueba": null,
+                            "bObligatorio": true,
+                            "diagnosticos": [],
+                            "fichas": [
+                                {
+                                    "iIdFicha": 110,
+                                    "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                    "siTipoPrueba": 3,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 232
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "iIdPrueba": 61,
+                            "iIdDependeDePrueba": null,
+                            "vcNombre": "Signos Vitales",
+                            "tiVigenciaMinMeses": 1,
+                            "tiVigenciaMaxMeses": 12,
+                            "bConvalidable": true,
+                            "tiVigenciaConvalidacionMeses": 3,
+                            "siTipoPrueba": 1,
+                            "bInfluyeenAptitud": true,
+                            "bInfluyeAltitud": false,
+                            "bSeVendeSolo": false,
+                            "iIdGrupoPrueba": 19,
+                            "bTercerizado": false,
+                            "vcTipoPrueba": null,
+                            "vcGrupoPrueba": null,
+                            "bObligatorio": true,
+                            "diagnosticos": [],
+                            "fichas": [
+                                {
+                                    "iIdFicha": 113,
+                                    "vcNombre": "Examen de la Orofaringe",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 243
+                                        },
+                                        {
+                                            "iIdCampo": 244
+                                        },
+                                        {
+                                            "iIdCampo": 241
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "iIdPrueba": 107,
+                            "iIdDependeDePrueba": null,
+                            "vcNombre": "Examen Físico COVID - 19",
+                            "tiVigenciaMinMeses": 0,
+                            "tiVigenciaMaxMeses": 1,
+                            "bConvalidable": false,
+                            "tiVigenciaConvalidacionMeses": 0,
+                            "siTipoPrueba": 1,
+                            "bInfluyeenAptitud": true,
+                            "bInfluyeAltitud": false,
+                            "bSeVendeSolo": false,
+                            "iIdGrupoPrueba": 19,
+                            "bTercerizado": false,
+                            "vcTipoPrueba": null,
+                            "vcGrupoPrueba": null,
+                            "bObligatorio": true,
+                            "diagnosticos": [],
+                            "fichas": [
+                                {
+                                    "iIdFicha": 111,
+                                    "vcNombre": "Entrevista Epidemiológica",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 235
+                                        },
+                                        {
+                                            "iIdCampo": 237
+                                        },
+                                        {
+                                            "iIdCampo": 242
+                                        },
+                                        {
+                                            "iIdCampo": 238
+                                        },
+                                        {
+                                            "iIdCampo": 240
+                                        },
+                                        {
+                                            "iIdCampo": 249
+                                        },
+                                        {
+                                            "iIdCampo": 250
+                                        },
+                                        {
+                                            "iIdCampo": 251
+                                        },
+                                        {
+                                            "iIdCampo": 246
+                                        },
+                                        {
+                                            "iIdCampo": 247
+                                        },
+                                        {
+                                            "iIdCampo": 248
+                                        },
+                                        {
+                                            "iIdCampo": 252
+                                        },
+                                        {
+                                            "iIdCampo": 239
+                                        },
+                                        {
+                                            "iIdCampo": 253
+                                        }
+                                    ]
+                                },
+                                {
+                                    "iIdFicha": 112,
+                                    "vcNombre": "Examen de la nariz y fosas nasales",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Evalua el estado de las fosas nasales",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 234
+                                        },
+                                        {
+                                            "iIdCampo": 236
+                                        },
+                                        {
+                                            "iIdCampo": 233
+                                        }
+                                    ]
+                                },
+                                {
+                                    "iIdFicha": 113,
+                                    "vcNombre": "Examen de la Orofaringe",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 243
+                                        },
+                                        {
+                                            "iIdCampo": 244
+                                        },
+                                        {
+                                            "iIdCampo": 241
+                                        }
+                                    ]
+                                },
+                                {
+                                    "iIdFicha": 114,
+                                    "vcNombre": "Pulmón",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Evaluacion de pulmones",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 245
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "iIdPrueba": 60,
+                            "iIdDependeDePrueba": null,
+                            "vcNombre": "Antropometria",
+                            "tiVigenciaMinMeses": 1,
+                            "tiVigenciaMaxMeses": 12,
+                            "bConvalidable": true,
+                            "tiVigenciaConvalidacionMeses": 3,
+                            "siTipoPrueba": 1,
+                            "bInfluyeenAptitud": true,
+                            "bInfluyeAltitud": false,
+                            "bSeVendeSolo": false,
+                            "iIdGrupoPrueba": 19,
+                            "bTercerizado": false,
+                            "vcTipoPrueba": null,
+                            "vcGrupoPrueba": null,
+                            "bObligatorio": true,
+                            "diagnosticos": [],
+                            "fichas": [
+                                {
+                                    "iIdFicha": 114,
+                                    "vcNombre": "Pulmón",
+                                    "bPrincipal": null,
+                                    "siTipo": 1,
+                                    "siEstado": 1,
+                                    "vcEstado": null,
+                                    "vcDescripcion": "Evaluacion de pulmones",
+                                    "siTipoPrueba": 1,
+                                    "dtCreacion": "0001-01-01T00:00:00",
+                                    "dtModificacion": null,
+                                    "iIdUsuarioCreacion": 0,
+                                    "iIdUsuarioModificacion": null,
+                                    "vcUsuarioModificacion": null,
+                                    "vcTipo": null,
+                                    "vcGrupo": null,
+                                    "campos": [
+                                        {
+                                            "iIdCampo": 245
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "required": [
+        "vcNombres",
+        "vcApellidoPaterno",
+        "vcApellidoMaterno",
+        "siGenero",
+        "dNacimiento",
+        "siTipoIdentificacion",
+        "vcNumeroIdentificacion",
+        "siFactorSanguineo",
+        "dtCreacion",
+        "iIdPersona",
+        "siEstado",
+        "protocolos"
+    ],
+    "properties": {
+        "vcNombres": {
+            "$id": "#/properties/vcNombres",
+            "type": "string",
+            "title": "The vcNombres schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "raul"
+            ]
+        },
+        "vcApellidoPaterno": {
+            "$id": "#/properties/vcApellidoPaterno",
+            "type": "string",
+            "title": "The vcApellidoPaterno schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "colonia"
+            ]
+        },
+        "vcApellidoMaterno": {
+            "$id": "#/properties/vcApellidoMaterno",
+            "type": "string",
+            "title": "The vcApellidoMaterno schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "coral"
+            ]
+        },
+        "siGenero": {
+            "$id": "#/properties/siGenero",
+            "type": "integer",
+            "title": "The siGenero schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                2
+            ]
+        },
+        "dNacimiento": {
+            "$id": "#/properties/dNacimiento",
+            "type": "string",
+            "title": "The dNacimiento schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2020-07-03T00:00:00"
+            ]
+        },
+        "siTipoIdentificacion": {
+            "$id": "#/properties/siTipoIdentificacion",
+            "type": "integer",
+            "title": "The siTipoIdentificacion schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "vcNumeroIdentificacion": {
+            "$id": "#/properties/vcNumeroIdentificacion",
+            "type": "string",
+            "title": "The vcNumeroIdentificacion schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "32138551"
+            ]
+        },
+        "siFactorSanguineo": {
+            "$id": "#/properties/siFactorSanguineo",
+            "type": "integer",
+            "title": "The siFactorSanguineo schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "dtCreacion": {
+            "$id": "#/properties/dtCreacion",
+            "type": "string",
+            "title": "The dtCreacion schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "0001-01-01T00:00:00"
+            ]
+        },
+        "iIdPersona": {
+            "$id": "#/properties/iIdPersona",
+            "type": "integer",
+            "title": "The iIdPersona schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                46
+            ]
+        },
+        "siEstado": {
+            "$id": "#/properties/siEstado",
+            "type": "integer",
+            "title": "The siEstado schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "protocolos": {
+            "$id": "#/properties/protocolos",
+            "type": "array",
+            "title": "The protocolos schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "iIdProtocolo": 6,
+                        "tiVigenciaMinMeses": 0,
+                        "tiVigenciaMaxMeses": 1,
+                        "vcNombre": "COVID-19 Particular",
+                        "tiTiempoAtencionDias": 1,
+                        "tiTiempoLevanteObsdias": 7,
+                        "iIdTipoExamen": 5,
+                        "dtCreacion": "2020-05-21T08:00:30.303",
+                        "pruebas": [
+                            {
+                                "iIdPrueba": 106,
+                                "iIdDependeDePrueba": null,
+                                "vcNombre": "Entrevista Epidemiológica",
+                                "tiVigenciaMinMeses": 1,
+                                "tiVigenciaMaxMeses": 1,
+                                "bConvalidable": false,
+                                "tiVigenciaConvalidacionMeses": null,
+                                "siTipoPrueba": 1,
+                                "bInfluyeenAptitud": true,
+                                "bInfluyeAltitud": false,
+                                "bSeVendeSolo": false,
+                                "iIdGrupoPrueba": 19,
+                                "bTercerizado": false,
+                                "vcTipoPrueba": null,
+                                "vcGrupoPrueba": null,
+                                "bObligatorio": true,
+                                "diagnosticos": [],
+                                "fichas": [
+                                    {
+                                        "iIdFicha": 111,
+                                        "vcNombre": "Entrevista Epidemiológica",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 235
+                                            },
+                                            {
+                                                "iIdCampo": 237
+                                            },
+                                            {
+                                                "iIdCampo": 242
+                                            },
+                                            {
+                                                "iIdCampo": 238
+                                            },
+                                            {
+                                                "iIdCampo": 240
+                                            },
+                                            {
+                                                "iIdCampo": 249
+                                            },
+                                            {
+                                                "iIdCampo": 250
+                                            },
+                                            {
+                                                "iIdCampo": 251
+                                            },
+                                            {
+                                                "iIdCampo": 246
+                                            },
+                                            {
+                                                "iIdCampo": 247
+                                            },
+                                            {
+                                                "iIdCampo": 248
+                                            },
+                                            {
+                                                "iIdCampo": 252
+                                            },
+                                            {
+                                                "iIdCampo": 239
+                                            },
+                                            {
+                                                "iIdCampo": 253,
+                                                "valor": 42
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "iIdPrueba": 105,
+                                "iIdDependeDePrueba": null,
+                                "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                "tiVigenciaMinMeses": 0,
+                                "tiVigenciaMaxMeses": 0,
+                                "bConvalidable": false,
+                                "tiVigenciaConvalidacionMeses": null,
+                                "siTipoPrueba": 3,
+                                "bInfluyeenAptitud": true,
+                                "bInfluyeAltitud": false,
+                                "bSeVendeSolo": true,
+                                "iIdGrupoPrueba": 18,
+                                "bTercerizado": false,
+                                "vcTipoPrueba": null,
+                                "vcGrupoPrueba": null,
+                                "bObligatorio": true,
+                                "diagnosticos": [],
+                                "fichas": [
+                                    {
+                                        "iIdFicha": 110,
+                                        "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                        "siTipoPrueba": 3,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 232
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "iIdPrueba": 61,
+                                "iIdDependeDePrueba": null,
+                                "vcNombre": "Signos Vitales",
+                                "tiVigenciaMinMeses": 1,
+                                "tiVigenciaMaxMeses": 12,
+                                "bConvalidable": true,
+                                "tiVigenciaConvalidacionMeses": 3,
+                                "siTipoPrueba": 1,
+                                "bInfluyeenAptitud": true,
+                                "bInfluyeAltitud": false,
+                                "bSeVendeSolo": false,
+                                "iIdGrupoPrueba": 19,
+                                "bTercerizado": false,
+                                "vcTipoPrueba": null,
+                                "vcGrupoPrueba": null,
+                                "bObligatorio": true,
+                                "diagnosticos": [],
+                                "fichas": [
+                                    {
+                                        "iIdFicha": 113,
+                                        "vcNombre": "Examen de la Orofaringe",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 243
+                                            },
+                                            {
+                                                "iIdCampo": 244
+                                            },
+                                            {
+                                                "iIdCampo": 241
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "iIdPrueba": 107,
+                                "iIdDependeDePrueba": null,
+                                "vcNombre": "Examen Físico COVID - 19",
+                                "tiVigenciaMinMeses": 0,
+                                "tiVigenciaMaxMeses": 1,
+                                "bConvalidable": false,
+                                "tiVigenciaConvalidacionMeses": 0,
+                                "siTipoPrueba": 1,
+                                "bInfluyeenAptitud": true,
+                                "bInfluyeAltitud": false,
+                                "bSeVendeSolo": false,
+                                "iIdGrupoPrueba": 19,
+                                "bTercerizado": false,
+                                "vcTipoPrueba": null,
+                                "vcGrupoPrueba": null,
+                                "bObligatorio": true,
+                                "diagnosticos": [],
+                                "fichas": [
+                                    {
+                                        "iIdFicha": 111,
+                                        "vcNombre": "Entrevista Epidemiológica",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 235
+                                            },
+                                            {
+                                                "iIdCampo": 237
+                                            },
+                                            {
+                                                "iIdCampo": 242
+                                            },
+                                            {
+                                                "iIdCampo": 238
+                                            },
+                                            {
+                                                "iIdCampo": 240
+                                            },
+                                            {
+                                                "iIdCampo": 249
+                                            },
+                                            {
+                                                "iIdCampo": 250
+                                            },
+                                            {
+                                                "iIdCampo": 251
+                                            },
+                                            {
+                                                "iIdCampo": 246
+                                            },
+                                            {
+                                                "iIdCampo": 247
+                                            },
+                                            {
+                                                "iIdCampo": 248
+                                            },
+                                            {
+                                                "iIdCampo": 252
+                                            },
+                                            {
+                                                "iIdCampo": 239
+                                            },
+                                            {
+                                                "iIdCampo": 253
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdFicha": 112,
+                                        "vcNombre": "Examen de la nariz y fosas nasales",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Evalua el estado de las fosas nasales",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 234
+                                            },
+                                            {
+                                                "iIdCampo": 236
+                                            },
+                                            {
+                                                "iIdCampo": 233
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdFicha": 113,
+                                        "vcNombre": "Examen de la Orofaringe",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 243
+                                            },
+                                            {
+                                                "iIdCampo": 244
+                                            },
+                                            {
+                                                "iIdCampo": 241
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdFicha": 114,
+                                        "vcNombre": "Pulmón",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Evaluacion de pulmones",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 245
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "iIdPrueba": 60,
+                                "iIdDependeDePrueba": null,
+                                "vcNombre": "Antropometria",
+                                "tiVigenciaMinMeses": 1,
+                                "tiVigenciaMaxMeses": 12,
+                                "bConvalidable": true,
+                                "tiVigenciaConvalidacionMeses": 3,
+                                "siTipoPrueba": 1,
+                                "bInfluyeenAptitud": true,
+                                "bInfluyeAltitud": false,
+                                "bSeVendeSolo": false,
+                                "iIdGrupoPrueba": 19,
+                                "bTercerizado": false,
+                                "vcTipoPrueba": null,
+                                "vcGrupoPrueba": null,
+                                "bObligatorio": true,
+                                "diagnosticos": [],
+                                "fichas": [
+                                    {
+                                        "iIdFicha": 114,
+                                        "vcNombre": "Pulmón",
+                                        "bPrincipal": null,
+                                        "siTipo": 1,
+                                        "siEstado": 1,
+                                        "vcEstado": null,
+                                        "vcDescripcion": "Evaluacion de pulmones",
+                                        "siTipoPrueba": 1,
+                                        "dtCreacion": "0001-01-01T00:00:00",
+                                        "dtModificacion": null,
+                                        "iIdUsuarioCreacion": 0,
+                                        "iIdUsuarioModificacion": null,
+                                        "vcUsuarioModificacion": null,
+                                        "vcTipo": null,
+                                        "vcGrupo": null,
+                                        "campos": [
+                                            {
+                                                "iIdCampo": 245
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/protocolos/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/protocolos/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "iIdProtocolo": 6,
+                                "tiVigenciaMinMeses": 0,
+                                "tiVigenciaMaxMeses": 1,
+                                "vcNombre": "COVID-19 Particular",
+                                "tiTiempoAtencionDias": 1,
+                                "tiTiempoLevanteObsdias": 7,
+                                "iIdTipoExamen": 5,
+                                "dtCreacion": "2020-05-21T08:00:30.303",
+                                "pruebas": [
+                                    {
+                                        "iIdPrueba": 106,
+                                        "iIdDependeDePrueba": null,
+                                        "vcNombre": "Entrevista Epidemiológica",
+                                        "tiVigenciaMinMeses": 1,
+                                        "tiVigenciaMaxMeses": 1,
+                                        "bConvalidable": false,
+                                        "tiVigenciaConvalidacionMeses": null,
+                                        "siTipoPrueba": 1,
+                                        "bInfluyeenAptitud": true,
+                                        "bInfluyeAltitud": false,
+                                        "bSeVendeSolo": false,
+                                        "iIdGrupoPrueba": 19,
+                                        "bTercerizado": false,
+                                        "vcTipoPrueba": null,
+                                        "vcGrupoPrueba": null,
+                                        "bObligatorio": true,
+                                        "diagnosticos": [],
+                                        "fichas": [
+                                            {
+                                                "iIdFicha": 111,
+                                                "vcNombre": "Entrevista Epidemiológica",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 235
+                                                    },
+                                                    {
+                                                        "iIdCampo": 237
+                                                    },
+                                                    {
+                                                        "iIdCampo": 242
+                                                    },
+                                                    {
+                                                        "iIdCampo": 238
+                                                    },
+                                                    {
+                                                        "iIdCampo": 240
+                                                    },
+                                                    {
+                                                        "iIdCampo": 249
+                                                    },
+                                                    {
+                                                        "iIdCampo": 250
+                                                    },
+                                                    {
+                                                        "iIdCampo": 251
+                                                    },
+                                                    {
+                                                        "iIdCampo": 246
+                                                    },
+                                                    {
+                                                        "iIdCampo": 247
+                                                    },
+                                                    {
+                                                        "iIdCampo": 248
+                                                    },
+                                                    {
+                                                        "iIdCampo": 252
+                                                    },
+                                                    {
+                                                        "iIdCampo": 239
+                                                    },
+                                                    {
+                                                        "iIdCampo": 253,
+                                                        "valor": 42
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdPrueba": 105,
+                                        "iIdDependeDePrueba": null,
+                                        "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                        "tiVigenciaMinMeses": 0,
+                                        "tiVigenciaMaxMeses": 0,
+                                        "bConvalidable": false,
+                                        "tiVigenciaConvalidacionMeses": null,
+                                        "siTipoPrueba": 3,
+                                        "bInfluyeenAptitud": true,
+                                        "bInfluyeAltitud": false,
+                                        "bSeVendeSolo": true,
+                                        "iIdGrupoPrueba": 18,
+                                        "bTercerizado": false,
+                                        "vcTipoPrueba": null,
+                                        "vcGrupoPrueba": null,
+                                        "bObligatorio": true,
+                                        "diagnosticos": [],
+                                        "fichas": [
+                                            {
+                                                "iIdFicha": 110,
+                                                "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                                "siTipoPrueba": 3,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 232
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdPrueba": 61,
+                                        "iIdDependeDePrueba": null,
+                                        "vcNombre": "Signos Vitales",
+                                        "tiVigenciaMinMeses": 1,
+                                        "tiVigenciaMaxMeses": 12,
+                                        "bConvalidable": true,
+                                        "tiVigenciaConvalidacionMeses": 3,
+                                        "siTipoPrueba": 1,
+                                        "bInfluyeenAptitud": true,
+                                        "bInfluyeAltitud": false,
+                                        "bSeVendeSolo": false,
+                                        "iIdGrupoPrueba": 19,
+                                        "bTercerizado": false,
+                                        "vcTipoPrueba": null,
+                                        "vcGrupoPrueba": null,
+                                        "bObligatorio": true,
+                                        "diagnosticos": [],
+                                        "fichas": [
+                                            {
+                                                "iIdFicha": 113,
+                                                "vcNombre": "Examen de la Orofaringe",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 243
+                                                    },
+                                                    {
+                                                        "iIdCampo": 244
+                                                    },
+                                                    {
+                                                        "iIdCampo": 241
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdPrueba": 107,
+                                        "iIdDependeDePrueba": null,
+                                        "vcNombre": "Examen Físico COVID - 19",
+                                        "tiVigenciaMinMeses": 0,
+                                        "tiVigenciaMaxMeses": 1,
+                                        "bConvalidable": false,
+                                        "tiVigenciaConvalidacionMeses": 0,
+                                        "siTipoPrueba": 1,
+                                        "bInfluyeenAptitud": true,
+                                        "bInfluyeAltitud": false,
+                                        "bSeVendeSolo": false,
+                                        "iIdGrupoPrueba": 19,
+                                        "bTercerizado": false,
+                                        "vcTipoPrueba": null,
+                                        "vcGrupoPrueba": null,
+                                        "bObligatorio": true,
+                                        "diagnosticos": [],
+                                        "fichas": [
+                                            {
+                                                "iIdFicha": 111,
+                                                "vcNombre": "Entrevista Epidemiológica",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 235
+                                                    },
+                                                    {
+                                                        "iIdCampo": 237
+                                                    },
+                                                    {
+                                                        "iIdCampo": 242
+                                                    },
+                                                    {
+                                                        "iIdCampo": 238
+                                                    },
+                                                    {
+                                                        "iIdCampo": 240
+                                                    },
+                                                    {
+                                                        "iIdCampo": 249
+                                                    },
+                                                    {
+                                                        "iIdCampo": 250
+                                                    },
+                                                    {
+                                                        "iIdCampo": 251
+                                                    },
+                                                    {
+                                                        "iIdCampo": 246
+                                                    },
+                                                    {
+                                                        "iIdCampo": 247
+                                                    },
+                                                    {
+                                                        "iIdCampo": 248
+                                                    },
+                                                    {
+                                                        "iIdCampo": 252
+                                                    },
+                                                    {
+                                                        "iIdCampo": 239
+                                                    },
+                                                    {
+                                                        "iIdCampo": 253
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "iIdFicha": 112,
+                                                "vcNombre": "Examen de la nariz y fosas nasales",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Evalua el estado de las fosas nasales",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 234
+                                                    },
+                                                    {
+                                                        "iIdCampo": 236
+                                                    },
+                                                    {
+                                                        "iIdCampo": 233
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "iIdFicha": 113,
+                                                "vcNombre": "Examen de la Orofaringe",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Evalúa la boca, lengua y faringe",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 243
+                                                    },
+                                                    {
+                                                        "iIdCampo": 244
+                                                    },
+                                                    {
+                                                        "iIdCampo": 241
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "iIdFicha": 114,
+                                                "vcNombre": "Pulmón",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Evaluacion de pulmones",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 245
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "iIdPrueba": 60,
+                                        "iIdDependeDePrueba": null,
+                                        "vcNombre": "Antropometria",
+                                        "tiVigenciaMinMeses": 1,
+                                        "tiVigenciaMaxMeses": 12,
+                                        "bConvalidable": true,
+                                        "tiVigenciaConvalidacionMeses": 3,
+                                        "siTipoPrueba": 1,
+                                        "bInfluyeenAptitud": true,
+                                        "bInfluyeAltitud": false,
+                                        "bSeVendeSolo": false,
+                                        "iIdGrupoPrueba": 19,
+                                        "bTercerizado": false,
+                                        "vcTipoPrueba": null,
+                                        "vcGrupoPrueba": null,
+                                        "bObligatorio": true,
+                                        "diagnosticos": [],
+                                        "fichas": [
+                                            {
+                                                "iIdFicha": 114,
+                                                "vcNombre": "Pulmón",
+                                                "bPrincipal": null,
+                                                "siTipo": 1,
+                                                "siEstado": 1,
+                                                "vcEstado": null,
+                                                "vcDescripcion": "Evaluacion de pulmones",
+                                                "siTipoPrueba": 1,
+                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                "dtModificacion": null,
+                                                "iIdUsuarioCreacion": 0,
+                                                "iIdUsuarioModificacion": null,
+                                                "vcUsuarioModificacion": null,
+                                                "vcTipo": null,
+                                                "vcGrupo": null,
+                                                "campos": [
+                                                    {
+                                                        "iIdCampo": 245
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "required": [
+                            "iIdProtocolo",
+                            "tiVigenciaMinMeses",
+                            "tiVigenciaMaxMeses",
+                            "vcNombre",
+                            "tiTiempoAtencionDias",
+                            "tiTiempoLevanteObsdias",
+                            "iIdTipoExamen",
+                            "dtCreacion",
+                            "pruebas"
+                        ],
+                        "properties": {
+                            "iIdProtocolo": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/iIdProtocolo",
+                                "type": "integer",
+                                "title": "The iIdProtocolo schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    6
+                                ]
+                            },
+                            "tiVigenciaMinMeses": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/tiVigenciaMinMeses",
+                                "type": "integer",
+                                "title": "The tiVigenciaMinMeses schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    0
+                                ]
+                            },
+                            "tiVigenciaMaxMeses": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/tiVigenciaMaxMeses",
+                                "type": "integer",
+                                "title": "The tiVigenciaMaxMeses schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    1
+                                ]
+                            },
+                            "vcNombre": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/vcNombre",
+                                "type": "string",
+                                "title": "The vcNombre schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "COVID-19 Particular"
+                                ]
+                            },
+                            "tiTiempoAtencionDias": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/tiTiempoAtencionDias",
+                                "type": "integer",
+                                "title": "The tiTiempoAtencionDias schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    1
+                                ]
+                            },
+                            "tiTiempoLevanteObsdias": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/tiTiempoLevanteObsdias",
+                                "type": "integer",
+                                "title": "The tiTiempoLevanteObsdias schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    7
+                                ]
+                            },
+                            "iIdTipoExamen": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/iIdTipoExamen",
+                                "type": "integer",
+                                "title": "The iIdTipoExamen schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    5
+                                ]
+                            },
+                            "dtCreacion": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/dtCreacion",
+                                "type": "string",
+                                "title": "The dtCreacion schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "2020-05-21T08:00:30.303"
+                                ]
+                            },
+                            "pruebas": {
+                                "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas",
+                                "type": "array",
+                                "title": "The pruebas schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "iIdPrueba": 106,
+                                            "iIdDependeDePrueba": null,
+                                            "vcNombre": "Entrevista Epidemiológica",
+                                            "tiVigenciaMinMeses": 1,
+                                            "tiVigenciaMaxMeses": 1,
+                                            "bConvalidable": false,
+                                            "tiVigenciaConvalidacionMeses": null,
+                                            "siTipoPrueba": 1,
+                                            "bInfluyeenAptitud": true,
+                                            "bInfluyeAltitud": false,
+                                            "bSeVendeSolo": false,
+                                            "iIdGrupoPrueba": 19,
+                                            "bTercerizado": false,
+                                            "vcTipoPrueba": null,
+                                            "vcGrupoPrueba": null,
+                                            "bObligatorio": true,
+                                            "diagnosticos": [],
+                                            "fichas": [
+                                                {
+                                                    "iIdFicha": 111,
+                                                    "vcNombre": "Entrevista Epidemiológica",
+                                                    "bPrincipal": null,
+                                                    "siTipo": 1,
+                                                    "siEstado": 1,
+                                                    "vcEstado": null,
+                                                    "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                    "siTipoPrueba": 1,
+                                                    "dtCreacion": "0001-01-01T00:00:00",
+                                                    "dtModificacion": null,
+                                                    "iIdUsuarioCreacion": 0,
+                                                    "iIdUsuarioModificacion": null,
+                                                    "vcUsuarioModificacion": null,
+                                                    "vcTipo": null,
+                                                    "vcGrupo": null,
+                                                    "campos": [
+                                                        {
+                                                            "iIdCampo": 235
+                                                        },
+                                                        {
+                                                            "iIdCampo": 237
+                                                        },
+                                                        {
+                                                            "iIdCampo": 242
+                                                        },
+                                                        {
+                                                            "iIdCampo": 238
+                                                        },
+                                                        {
+                                                            "iIdCampo": 240
+                                                        },
+                                                        {
+                                                            "iIdCampo": 249
+                                                        },
+                                                        {
+                                                            "iIdCampo": 250
+                                                        },
+                                                        {
+                                                            "iIdCampo": 251
+                                                        },
+                                                        {
+                                                            "iIdCampo": 246
+                                                        },
+                                                        {
+                                                            "iIdCampo": 247
+                                                        },
+                                                        {
+                                                            "iIdCampo": 248
+                                                        },
+                                                        {
+                                                            "iIdCampo": 252
+                                                        },
+                                                        {
+                                                            "iIdCampo": 239
+                                                        },
+                                                        {
+                                                            "iIdCampo": 253,
+                                                            "valor": 42
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "iIdPrueba": 105,
+                                            "iIdDependeDePrueba": null,
+                                            "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                            "tiVigenciaMinMeses": 0,
+                                            "tiVigenciaMaxMeses": 0,
+                                            "bConvalidable": false,
+                                            "tiVigenciaConvalidacionMeses": null,
+                                            "siTipoPrueba": 3,
+                                            "bInfluyeenAptitud": true,
+                                            "bInfluyeAltitud": false,
+                                            "bSeVendeSolo": true,
+                                            "iIdGrupoPrueba": 18,
+                                            "bTercerizado": false,
+                                            "vcTipoPrueba": null,
+                                            "vcGrupoPrueba": null,
+                                            "bObligatorio": true,
+                                            "diagnosticos": [],
+                                            "fichas": [
+                                                {
+                                                    "iIdFicha": 110,
+                                                    "vcNombre": "Prueba Rápida para detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                                    "bPrincipal": null,
+                                                    "siTipo": 1,
+                                                    "siEstado": 1,
+                                                    "vcEstado": null,
+                                                    "vcDescripcion": "Detección de Anticuerpos IgG/IgM Covid-19 ( Sars-Cov-2)",
+                                                    "siTipoPrueba": 3,
+                                                    "dtCreacion": "0001-01-01T00:00:00",
+                                                    "dtModificacion": null,
+                                                    "iIdUsuarioCreacion": 0,
+                                                    "iIdUsuarioModificacion": null,
+                                                    "vcUsuarioModificacion": null,
+                                                    "vcTipo": null,
+                                                    "vcGrupo": null,
+                                                    "campos": [
+                                                        {
+                                                            "iIdCampo": 232
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "iIdPrueba": 106,
+                                                    "iIdDependeDePrueba": null,
+                                                    "vcNombre": "Entrevista Epidemiológica",
+                                                    "tiVigenciaMinMeses": 1,
+                                                    "tiVigenciaMaxMeses": 1,
+                                                    "bConvalidable": false,
+                                                    "tiVigenciaConvalidacionMeses": null,
+                                                    "siTipoPrueba": 1,
+                                                    "bInfluyeenAptitud": true,
+                                                    "bInfluyeAltitud": false,
+                                                    "bSeVendeSolo": false,
+                                                    "iIdGrupoPrueba": 19,
+                                                    "bTercerizado": false,
+                                                    "vcTipoPrueba": null,
+                                                    "vcGrupoPrueba": null,
+                                                    "bObligatorio": true,
+                                                    "diagnosticos": [],
+                                                    "fichas": [
+                                                        {
+                                                            "iIdFicha": 111,
+                                                            "vcNombre": "Entrevista Epidemiológica",
+                                                            "bPrincipal": null,
+                                                            "siTipo": 1,
+                                                            "siEstado": 1,
+                                                            "vcEstado": null,
+                                                            "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                            "siTipoPrueba": 1,
+                                                            "dtCreacion": "0001-01-01T00:00:00",
+                                                            "dtModificacion": null,
+                                                            "iIdUsuarioCreacion": 0,
+                                                            "iIdUsuarioModificacion": null,
+                                                            "vcUsuarioModificacion": null,
+                                                            "vcTipo": null,
+                                                            "vcGrupo": null,
+                                                            "campos": [
+                                                                {
+                                                                    "iIdCampo": 235
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 237
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 242
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 238
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 240
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 249
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 250
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 251
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 246
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 247
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 248
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 252
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 239
+                                                                },
+                                                                {
+                                                                    "iIdCampo": 253,
+                                                                    "valor": 42
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "required": [
+                                                "iIdPrueba",
+                                                "iIdDependeDePrueba",
+                                                "vcNombre",
+                                                "tiVigenciaMinMeses",
+                                                "tiVigenciaMaxMeses",
+                                                "bConvalidable",
+                                                "tiVigenciaConvalidacionMeses",
+                                                "siTipoPrueba",
+                                                "bInfluyeenAptitud",
+                                                "bInfluyeAltitud",
+                                                "bSeVendeSolo",
+                                                "iIdGrupoPrueba",
+                                                "bTercerizado",
+                                                "vcTipoPrueba",
+                                                "vcGrupoPrueba",
+                                                "bObligatorio",
+                                                "diagnosticos",
+                                                "fichas"
+                                            ],
+                                            "properties": {
+                                                "iIdPrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/iIdPrueba",
+                                                    "type": "integer",
+                                                    "title": "The iIdPrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0,
+                                                    "examples": [
+                                                        106
+                                                    ]
+                                                },
+                                                "iIdDependeDePrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/iIdDependeDePrueba",
+                                                    "type": "null",
+                                                    "title": "The iIdDependeDePrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": null,
+                                                    "examples": [
+                                                        null
+                                                    ]
+                                                },
+                                                "vcNombre": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/vcNombre",
+                                                    "type": "string",
+                                                    "title": "The vcNombre schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "Entrevista Epidemiológica"
+                                                    ]
+                                                },
+                                                "tiVigenciaMinMeses": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/tiVigenciaMinMeses",
+                                                    "type": "integer",
+                                                    "title": "The tiVigenciaMinMeses schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0,
+                                                    "examples": [
+                                                        1
+                                                    ]
+                                                },
+                                                "tiVigenciaMaxMeses": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/tiVigenciaMaxMeses",
+                                                    "type": "integer",
+                                                    "title": "The tiVigenciaMaxMeses schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0,
+                                                    "examples": [
+                                                        1
+                                                    ]
+                                                },
+                                                "bConvalidable": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bConvalidable",
+                                                    "type": "boolean",
+                                                    "title": "The bConvalidable schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        false
+                                                    ]
+                                                },
+                                                "tiVigenciaConvalidacionMeses": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/tiVigenciaConvalidacionMeses",
+                                                    "type": "null",
+                                                    "title": "The tiVigenciaConvalidacionMeses schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": null,
+                                                    "examples": [
+                                                        null
+                                                    ]
+                                                },
+                                                "siTipoPrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/siTipoPrueba",
+                                                    "type": "integer",
+                                                    "title": "The siTipoPrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0,
+                                                    "examples": [
+                                                        1
+                                                    ]
+                                                },
+                                                "bInfluyeenAptitud": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bInfluyeenAptitud",
+                                                    "type": "boolean",
+                                                    "title": "The bInfluyeenAptitud schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        true
+                                                    ]
+                                                },
+                                                "bInfluyeAltitud": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bInfluyeAltitud",
+                                                    "type": "boolean",
+                                                    "title": "The bInfluyeAltitud schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        false
+                                                    ]
+                                                },
+                                                "bSeVendeSolo": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bSeVendeSolo",
+                                                    "type": "boolean",
+                                                    "title": "The bSeVendeSolo schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        false
+                                                    ]
+                                                },
+                                                "iIdGrupoPrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/iIdGrupoPrueba",
+                                                    "type": "integer",
+                                                    "title": "The iIdGrupoPrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0,
+                                                    "examples": [
+                                                        19
+                                                    ]
+                                                },
+                                                "bTercerizado": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bTercerizado",
+                                                    "type": "boolean",
+                                                    "title": "The bTercerizado schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        false
+                                                    ]
+                                                },
+                                                "vcTipoPrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/vcTipoPrueba",
+                                                    "type": "null",
+                                                    "title": "The vcTipoPrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": null,
+                                                    "examples": [
+                                                        null
+                                                    ]
+                                                },
+                                                "vcGrupoPrueba": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/vcGrupoPrueba",
+                                                    "type": "null",
+                                                    "title": "The vcGrupoPrueba schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": null,
+                                                    "examples": [
+                                                        null
+                                                    ]
+                                                },
+                                                "bObligatorio": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/bObligatorio",
+                                                    "type": "boolean",
+                                                    "title": "The bObligatorio schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": false,
+                                                    "examples": [
+                                                        true
+                                                    ]
+                                                },
+                                                "diagnosticos": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/diagnosticos",
+                                                    "type": "array",
+                                                    "title": "The diagnosticos schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        []
+                                                    ],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/diagnosticos/items"
+                                                    }
+                                                },
+                                                "fichas": {
+                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas",
+                                                    "type": "array",
+                                                    "title": "The fichas schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        [
+                                                            {
+                                                                "iIdFicha": 111,
+                                                                "vcNombre": "Entrevista Epidemiológica",
+                                                                "bPrincipal": null,
+                                                                "siTipo": 1,
+                                                                "siEstado": 1,
+                                                                "vcEstado": null,
+                                                                "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                                "siTipoPrueba": 1,
+                                                                "dtCreacion": "0001-01-01T00:00:00",
+                                                                "dtModificacion": null,
+                                                                "iIdUsuarioCreacion": 0,
+                                                                "iIdUsuarioModificacion": null,
+                                                                "vcUsuarioModificacion": null,
+                                                                "vcTipo": null,
+                                                                "vcGrupo": null,
+                                                                "campos": [
+                                                                    {
+                                                                        "iIdCampo": 235
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 237
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 242
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 238
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 240
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 249
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 250
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 251
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 246
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 247
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 248
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 252
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 239
+                                                                    },
+                                                                    {
+                                                                        "iIdCampo": 253,
+                                                                        "valor": 42
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    ],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0",
+                                                                "type": "object",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "An explanation about the purpose of this instance.",
+                                                                "default": {},
+                                                                "examples": [
+                                                                    {
+                                                                        "iIdFicha": 111,
+                                                                        "vcNombre": "Entrevista Epidemiológica",
+                                                                        "bPrincipal": null,
+                                                                        "siTipo": 1,
+                                                                        "siEstado": 1,
+                                                                        "vcEstado": null,
+                                                                        "vcDescripcion": "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19",
+                                                                        "siTipoPrueba": 1,
+                                                                        "dtCreacion": "0001-01-01T00:00:00",
+                                                                        "dtModificacion": null,
+                                                                        "iIdUsuarioCreacion": 0,
+                                                                        "iIdUsuarioModificacion": null,
+                                                                        "vcUsuarioModificacion": null,
+                                                                        "vcTipo": null,
+                                                                        "vcGrupo": null,
+                                                                        "campos": [
+                                                                            {
+                                                                                "iIdCampo": 235
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 237
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 242
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 238
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 240
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 249
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 250
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 251
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 246
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 247
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 248
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 252
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 239
+                                                                            },
+                                                                            {
+                                                                                "iIdCampo": 253,
+                                                                                "valor": 42
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "required": [
+                                                                    "iIdFicha",
+                                                                    "vcNombre",
+                                                                    "bPrincipal",
+                                                                    "siTipo",
+                                                                    "siEstado",
+                                                                    "vcEstado",
+                                                                    "vcDescripcion",
+                                                                    "siTipoPrueba",
+                                                                    "dtCreacion",
+                                                                    "dtModificacion",
+                                                                    "iIdUsuarioCreacion",
+                                                                    "iIdUsuarioModificacion",
+                                                                    "vcUsuarioModificacion",
+                                                                    "vcTipo",
+                                                                    "vcGrupo",
+                                                                    "campos"
+                                                                ],
+                                                                "properties": {
+                                                                    "iIdFicha": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/iIdFicha",
+                                                                        "type": "integer",
+                                                                        "title": "The iIdFicha schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": 0,
+                                                                        "examples": [
+                                                                            111
+                                                                        ]
+                                                                    },
+                                                                    "vcNombre": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcNombre",
+                                                                        "type": "string",
+                                                                        "title": "The vcNombre schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": "",
+                                                                        "examples": [
+                                                                            "Entrevista Epidemiológica"
+                                                                        ]
+                                                                    },
+                                                                    "bPrincipal": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/bPrincipal",
+                                                                        "type": "null",
+                                                                        "title": "The bPrincipal schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "siTipo": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/siTipo",
+                                                                        "type": "integer",
+                                                                        "title": "The siTipo schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": 0,
+                                                                        "examples": [
+                                                                            1
+                                                                        ]
+                                                                    },
+                                                                    "siEstado": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/siEstado",
+                                                                        "type": "integer",
+                                                                        "title": "The siEstado schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": 0,
+                                                                        "examples": [
+                                                                            1
+                                                                        ]
+                                                                    },
+                                                                    "vcEstado": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcEstado",
+                                                                        "type": "null",
+                                                                        "title": "The vcEstado schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "vcDescripcion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcDescripcion",
+                                                                        "type": "string",
+                                                                        "title": "The vcDescripcion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": "",
+                                                                        "examples": [
+                                                                            "Entrevistas elaborada para hacer vigilancia activa en la investigación de casos COVID-19"
+                                                                        ]
+                                                                    },
+                                                                    "siTipoPrueba": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/siTipoPrueba",
+                                                                        "type": "integer",
+                                                                        "title": "The siTipoPrueba schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": 0,
+                                                                        "examples": [
+                                                                            1
+                                                                        ]
+                                                                    },
+                                                                    "dtCreacion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/dtCreacion",
+                                                                        "type": "string",
+                                                                        "title": "The dtCreacion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": "",
+                                                                        "examples": [
+                                                                            "0001-01-01T00:00:00"
+                                                                        ]
+                                                                    },
+                                                                    "dtModificacion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/dtModificacion",
+                                                                        "type": "null",
+                                                                        "title": "The dtModificacion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "iIdUsuarioCreacion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/iIdUsuarioCreacion",
+                                                                        "type": "integer",
+                                                                        "title": "The iIdUsuarioCreacion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": 0,
+                                                                        "examples": [
+                                                                            0
+                                                                        ]
+                                                                    },
+                                                                    "iIdUsuarioModificacion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/iIdUsuarioModificacion",
+                                                                        "type": "null",
+                                                                        "title": "The iIdUsuarioModificacion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "vcUsuarioModificacion": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcUsuarioModificacion",
+                                                                        "type": "null",
+                                                                        "title": "The vcUsuarioModificacion schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "vcTipo": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcTipo",
+                                                                        "type": "null",
+                                                                        "title": "The vcTipo schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "vcGrupo": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/vcGrupo",
+                                                                        "type": "null",
+                                                                        "title": "The vcGrupo schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": null,
+                                                                        "examples": [
+                                                                            null
+                                                                        ]
+                                                                    },
+                                                                    "campos": {
+                                                                        "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos",
+                                                                        "type": "array",
+                                                                        "title": "The campos schema",
+                                                                        "description": "An explanation about the purpose of this instance.",
+                                                                        "default": [],
+                                                                        "examples": [
+                                                                            [
+                                                                                {
+                                                                                    "iIdCampo": 235
+                                                                                },
+                                                                                {
+                                                                                    "iIdCampo": 237
+                                                                                }
+                                                                            ]
+                                                                        ],
+                                                                        "additionalItems": true,
+                                                                        "items": {
+                                                                            "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items",
+                                                                            "anyOf": [
+                                                                                {
+                                                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items/anyOf/0",
+                                                                                    "type": "object",
+                                                                                    "title": "The first anyOf schema",
+                                                                                    "description": "An explanation about the purpose of this instance.",
+                                                                                    "default": {},
+                                                                                    "examples": [
+                                                                                        {
+                                                                                            "iIdCampo": 235
+                                                                                        }
+                                                                                    ],
+                                                                                    "required": [
+                                                                                        "iIdCampo"
+                                                                                    ],
+                                                                                    "properties": {
+                                                                                        "iIdCampo": {
+                                                                                            "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items/anyOf/0/properties/iIdCampo",
+                                                                                            "type": "integer",
+                                                                                            "title": "The iIdCampo schema",
+                                                                                            "description": "An explanation about the purpose of this instance.",
+                                                                                            "default": 0,
+                                                                                            "examples": [
+                                                                                                235
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    "additionalProperties": true
+                                                                                },
+                                                                                {
+                                                                                    "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items/anyOf/1",
+                                                                                    "type": "object",
+                                                                                    "title": "The second anyOf schema",
+                                                                                    "description": "An explanation about the purpose of this instance.",
+                                                                                    "default": {},
+                                                                                    "examples": [
+                                                                                        {
+                                                                                            "iIdCampo": 253,
+                                                                                            "valor": 42
+                                                                                        }
+                                                                                    ],
+                                                                                    "required": [
+                                                                                        "iIdCampo",
+                                                                                        "valor"
+                                                                                    ],
+                                                                                    "properties": {
+                                                                                        "iIdCampo": {
+                                                                                            "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items/anyOf/1/properties/iIdCampo",
+                                                                                            "type": "integer",
+                                                                                            "title": "The iIdCampo schema",
+                                                                                            "description": "An explanation about the purpose of this instance.",
+                                                                                            "default": 0,
+                                                                                            "examples": [
+                                                                                                253
+                                                                                            ]
+                                                                                        },
+                                                                                        "valor": {
+                                                                                            "$id": "#/properties/protocolos/items/anyOf/0/properties/pruebas/items/anyOf/0/properties/fichas/items/anyOf/0/properties/campos/items/anyOf/1/properties/valor",
+                                                                                            "type": "integer",
+                                                                                            "title": "The valor schema",
+                                                                                            "description": "An explanation about the purpose of this instance.",
+                                                                                            "default": 0,
+                                                                                            "examples": [
+                                                                                                42
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    "additionalProperties": true
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "additionalProperties": true
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}
